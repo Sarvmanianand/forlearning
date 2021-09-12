@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+body
+{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+.navbar-brand svg 
+{
+    fill: #ee2e24;
+    width: 80px;
+    height: 28px; 
+}
+#sectionHeader
+{
+    padding:  7px 0;
+    box-shadow: 1px 1px 1px 1px #eee;
+}
+.container
+{
+    max-width:1250px ;
+}
+.navbar-nav .nav-link
+{
+color: #111 !important;
+padding-top: 10px;
+padding-right: -100px;
+width: 120px;
+font-weight: bold;
+letter-spacing: 1.1px;
+font-size: 14px;
+text-transform: capitalize;
+position: relative;
+}
+
+.navbar-nav .nav-link:nth-child(1)
+{
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+    padding: 0 200px;
+
+}
+.nav-link i
+{
+    font-size:23px;
+   position: absolute;
+   top: -1px;
+   left:-21px;
+}
+
+
+
+
+
+
+#cityMenu
+{
+background-color: #f3f5f7;
+height: 44px;
+}
+
+#cityMenu ul
+{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+
+#cityMenu ul li
+{
+  padding-top: 2px;
+  padding-left: 30px;
+   line-height: 40px;
+   position: relative;
+}
+#cityMenu ul li a
+{
+display: inline-block;
+padding: 0px 10px;
+color: #999;
+text-decoration: none;
+}
+
+
+#cityMenu ul li a:hover{
+    color: black;
+    background:  white;
+}
+
+
+
+#cityMenu ul li ul.dropdown{
+    min-width: 300px; /* Set width of the dropdown */
+    background:white;
+    display: none;
+   padding-top: 20px;
+   padding-left: 20px;
+    position: absolute;
+    z-index: 999;
+    left: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 1px 1px 1px rgb(202, 201, 201);
+}
+
+#cityMenu ul li a:hover a.dropdown
+{
+    color: crimson;
+}
+#cityMenu ul li:hover ul.dropdown{
+    display: block; /* Display the dropdown */
+}
+#cityMenu ul li ul.dropdown li{
+    display: block;
+    padding-left: 0px;
+    
+}
+.jumbotron
+{
+    background: linear-gradient(135.46deg, #d11450,#df293a) !important;
+    border-radius: 0;
+    padding: 0;
+}
+.jumbotron h1
+{
+    color: #ffffff;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    letter-spacing: 1.3px;
+    margin: 27px 0px;
+}
+.jumbotron .form-control
+{
+    border-radius: 0;
+    border: none;
+    box-sizing: border-box;
+    padding: 28px;
+}
+ .jumbotron .row
+{
+display: flex;
+justify-content: center;
+}
+.jumbotron button
+{
+    padding: 13px 50px;
+    border-radius: 0;
+    font-size: 18px;
+}
+.jumbotron input.form-control:nth-child(1)
+{
+    border-right: 1px solid #555;
+    border-radius: 3px 0px 0px 3px;
+}
+.jumbotron input.middleinput
+{
+    border-right: 1px solid #555;
+    text-indent: -99999px;
+}
+.nearme svg
+{
+height: 15px;
+width: 15px;
+fill: #222222;
+}
+.nearmewrapper
+{ 
+    position: relative;
+}
+.nearme
+{
+    position: absolute;
+    z-index: 1;
+    right: 8px;
+    width: 97px;
+    top: 12px;
+    background: #eee;
+    padding: 4px 9px;
+    border-radius: 15px;
+    font-size: 13px;
+
+}
+#middleSpanwrapper
+{
+    position: relative;
+}
+span.middleSpan
+{
+    position: absolute;
+    right: -14px;
+    top: 16px;
+    z-index: 1;
+    width: 200px;
+    color: #000000;
+    font-weight: 600;
+}
+span.middleSpan span
+{
+margin: 0px 5px;
+position: relative;
+}
+::placeholder
+{
+    color: black !important ; 
+    font-weight: 600 !important;
+
+}
+#shocaseHero
+{
+    background: linear-gradient(135.46deg, #d11450,#df293a);
+    width: 100%;
+    padding: 10px 0 32px;
+    margin-bottom: 18px;
+}
+#cardBody
+{
+    height: 400px;
+    width: 100%;
+   margin-top: 50px;
+}
+
+#cardBody.container div
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    
+}
+
+
+

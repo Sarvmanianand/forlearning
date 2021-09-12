@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>RedBus Application</title>
+    <link rel="stylesheet" href="./css/redbus.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./fontawesome-free-5.12.0-web/css/all.css">
+    <!--<link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">-->
+</head>
+<body>
+    <!--Header Section-->
+    <section id="RedBusMenuBlock">
+        <div class="menuleft">
+            <div class="logo">
+                <a href="#">logo</a>
+            </div>
+            <div class="leftlogoblockmenu">
+                  <ul>
+                      <li><a href="">BUS TICKETS</a></li>
+                      <li><a href="">rPool <sup>New</sup></a></li>
+                      <li><a href="">BUS HIRE</a></li>
+                      <li><a href="">PILGRIMAGES</a></li>
+                  </ul>
+            </div>
+        </div>
+        <div class="menuright">
+            <ul class="parent">
+                <!--li.child*3>a{help}-->
+                <li class="child"><a href="">help</a></li>
+                <li class="child dropdownli">
+                    
+                    <a href="">Manage Booking
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
+                    <ul class="dropdown">
+                        
+                            <li class="dropdownlistitem">
+                                <a href="">Cancle</a>
+                            </li>
+                            <li class="dropdownlistitem">
+                                <a href="">Reschedule</a>
+                            </li>
+                            <li class="dropdownlistitem">
+                                <a href="">Print/Download</a>
+                            </li>
+                            <li class="dropdownlistitem">
+                                <a href="">Email/SM</a>
+                            </li>
+                            
+
+
+                    </ul><!--drop down parent-->
+                </li>
+                <li class="child dropdownli">
+                    <a href="">User
+                        <i class="fa fa-caret-down" aria-hidden="true"></i>
+                    </a>
+                    <ul class="dropdown">
+                        <li class="dropdownlistitem"><a href="">Sign In/Sign Up</a></li>
+                    </ul>
+                </li>
+            </ul><!--parent ul-->
+        </div>
+    </section>
+    <!--Header end Section-->
+    <!--banner section-->
+    <section id="sliderSection">
+        <article>
+            <form>
+               <span> <i class="fas fa-city"></i></span>
+                <input type="text" placeholder="FROM" id="form"/>
+                <span></span><i class="fas fa-city"></i></span>
+                <input type="text" placeholder="To" id="to"/>
+                <span></span><i class="fas fa-calendar-alt"></i></span>
+                <input type="date" placeholder="onward date" id="onwardDate"/>
+                <span><i class="fas fa-calendar-alt"></i></span>
+                <input type="date" placeholder="return date" id="returndate"/>
+                <button class="searchbtn">Search Bus</button>
+                
+            </form>
+        </article>
+    </section>
+     <!--banner section end-->
+</body>
+</html>
